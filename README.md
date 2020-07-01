@@ -80,6 +80,9 @@ print("")
 ```
 ![3](https://user-images.githubusercontent.com/50224653/86123766-6cc3c080-bab0-11ea-9d2a-911b4dcaaeba.png)
 
+### 4)CONCLUSÃO
+Observa-se que o Kmeans conseguiu de forma eficiente separar linearmente os dados e fazer uma boa classificação de pulsares e não pulsares
+
 ```Python
 #Resultados###########################################################
 print (classification_report(dataset.iloc[:,-1], clusters))
@@ -90,10 +93,6 @@ cmtx = pd.DataFrame(
 )
 print("Matriz_de_Confusão")
 print(cmtx)
-
-#Observa-se que o Kmeans consequiu de forma eficiente
-#separar linearmente os dados e fazer uma boa classificação
-#de pulsares e não pulsares
 
               precision    recall  f1-score   support
 
